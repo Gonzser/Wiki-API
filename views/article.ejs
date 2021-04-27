@@ -1,0 +1,8 @@
+<%- include("partials/header") -%>
+
+<h1><%= theTitle %></h1>
+<p><%= theContent %></p>
+<small><%= result %></small>
+<a data-confirm="Are you sure?" data-method="delete" href="/article/<%= articleId %>" data-method="delete"><small>Delete <%= articleId %></small></a>
+
+<%- include("partials/footer") -%>
